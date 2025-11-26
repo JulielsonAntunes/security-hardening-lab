@@ -39,7 +39,9 @@ O principal vetor de ataque para servidores Linux (SSH) foi configurado para pro
 
 ### 1. Verificação do Firewall (UFW Status)
   `sudo ufw status verbose`
-<img width="812" height="572" alt="Print01_UFW_status_verbose" src="https://github.com/user-attachments/assets/6986f6c4-c5a9-4ae9-b5b6-d45b88893703" />
+
+<img width="812" height="571" alt="Print01_UFW_status_verbose" src="https://github.com/user-attachments/assets/0b76d7f3-7783-458d-a8fb-36127e247d9f" />
+
 
 **Prova:** Confirma que a Porta 22 foi removida e que o sistema só expõe o acesso remoto na porta não-padrão 2222.
 
