@@ -48,11 +48,12 @@ O principal vetor de ataque para servidores Linux (SSH) foi configurado para pro
 ### 2. Teste de Bloqueio de Root (Prova de Sucesso)
 A partir de uma máquina atacante (`julielson@ramos`), foi realizada uma tentativa de login proibida na nova porta.
 
-* **Comando de Teste:**
-   ``
+* **Comando de Teste:
+  ```
     ssh root@192.168.122.126 -p 2222
-  ``
-    <img width="812" height="571" alt="Print02_tentativa_SSH_como_root" src="https://github.com/user-attachments/assets/659ca6eb-786c-49ad-bd23-b3a5f245b530" />
+  ```
+
+  <img width="812" height="571" alt="Print02_tentativa_SSH_como_root" src="https://github.com/user-attachments/assets/659ca6eb-786c-49ad-bd23-b3a5f245b530" />
 
 * **Resultado do Servidor:** A conexão foi encerrada imediatamente após a tentativa de autenticação, conforme evidenciado pela mensagem:
     ```
