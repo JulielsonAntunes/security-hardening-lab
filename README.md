@@ -1,4 +1,3 @@
-# security-hardening-lab
 
 # 🛡️ Projeto de Hardening e Segurança de Acesso Remoto em Servidor Linux
 
